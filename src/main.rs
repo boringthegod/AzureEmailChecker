@@ -10,7 +10,7 @@ use colored::*;
 use std::sync::atomic::{AtomicUsize, Ordering};
 use clap::CommandFactory;
 
-/// Valide les adresses email avec Office 365 sans soumettre de tentatives de connexion.
+/// Validates email addresses with Azure / Office 365 without submitting connection attempts.
 #[derive(Parser, Debug)]
 #[command(name = "AzureEmailChecker", version = "1.0", author = "boring", about = "Checks whether an email is valid or not on Microsoft / Azure")]
 struct Args {
