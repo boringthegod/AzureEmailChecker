@@ -16,17 +16,25 @@ Options:
   -f, --file <FILE>      File containing email addresses to be validated, one per line
   -o, --output <OUTPUT>  Output file for valid addresses
   -v, --verbose          Enables 'VALID' and 'INVALID' results to be displayed in the terminal
+  -c, --csv <CSV>        Output CSV file for valid addresses with incremental ID
   -h, --help             Print help
   -V, --version          Print version
 
 Examples:
   ./azure_email_checker -e emailalonetocheck@domain.com -v
   ./azure_email_checker -f emails.txt -o validemails.txt
+  ./azure_email_checker -f emails.txt -c validemails.csv
 ```
 
 ## prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install)
+
+## installation
+
+```
+cargo install --git https://github.com/boringthegod/AzureEmailChecker.git --branch master azure_email_checker
+```
 
 ## compile
 
