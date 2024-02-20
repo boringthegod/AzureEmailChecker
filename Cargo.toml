@@ -1,7 +1,11 @@
 [package]
 name = "azure_email_checker"
 version = "0.1.1"
+authors = ["boring <boringthegod@tutanota.com>"]
 edition = "2021"
+description = "Tool written in Rust to enumerate the valid email addresses of an Azure/Office 365 Tenant"
+repository = "https://github.com/boringthegod/AzureEmailChecker"
+readme = "README.md"
 
 [[bin]]
 name = "azure_email_checker"
