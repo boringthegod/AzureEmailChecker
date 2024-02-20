@@ -33,7 +33,7 @@ Examples:
 ## installation
 
 ```
-cargo install --git https://github.com/boringthegod/AzureEmailChecker.git --branch master azure_email_checker
+cargo install azure_email_checker
 ```
 
 ## compile
