@@ -2,7 +2,7 @@
 
 Tool written in Rust to enumerate the valid email addresses of an Azure/Office 365 Tenant.
 
-It is mutil threaded and **makes no connection attempts**.
+It is multi threaded and **makes no connection attempts**.
 
 It supports validation of a single email address or a list of emails from a file, with the option of saving valid results in an output file. 
 
