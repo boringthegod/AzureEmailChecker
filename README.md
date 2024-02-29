@@ -57,5 +57,4 @@ cargo build --release --target x86_64-pc-windows-gnu
 
 ## credits
 
-- Technique originally discovered by grimhacker and described on this [blog](https://grimhacker.com/2017/07/24/office365-activesync-username-enumeration/)
 - [o365creeper](https://github.com/LMGsec/o365creeper/tree/master) the python2.7 tool that motivated this Rust renovation
